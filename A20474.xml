@@ -1,0 +1,351 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A probleme propounded by Francis Dillingham, in which is plainely shewed, that the holy scriptures haue met with popish arguments and opinions.</title>
+            <author>Dillingham, Francis, d. 1625.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1616</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 42 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A20474</idno>
+            <idno type="STC">STC 6887</idno>
+            <idno type="STC">ESTC S117462</idno>
+            <idno type="EEBO-CITATION">99852675</idno>
+            <idno type="PROQUEST">99852675</idno>
+            <idno type="VID">18010</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A20474)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 18010)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1234:08)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A probleme propounded by Francis Dillingham, in which is plainely shewed, that the holy scriptures haue met with popish arguments and opinions.</title>
+                  <author>Dillingham, Francis, d. 1625.</author>
+               </titleStmt>
+               <extent>[6], 42 p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted by William Iones, and are to be sold by Ed. Weauer,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1616]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Publication date from STC.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Controversial literature --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-12</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-12</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:18010:1"/>
+            <pb facs="tcp:18010:1" rendition="simple:additions"/>
+            <p>
+               <hi>A</hi> PROBLEME, PROPOVNDED by <hi>Francis Dillingham,</hi> in which is plainely ſhewed, <hi>that the holy ſcriptures haue met</hi> with Popiſh Arguments and <hi>opinions.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>Iohn 5.39.</hi>
+               </bibl> Search the Scriptures, for in them yee thinke to haue eternall life.</q>
+            <p>
+               <hi>LONDON,</hi> Imprinted by WILLIAM IONES, and are to be ſold by ED. WEAVER.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:18010:2"/>
+            <pb facs="tcp:18010:2"/>
+            <head>TO THE MOST RE<g ref="char:EOLhyphen"/>verend Father in God, George <hi>by the Divine providence, Archbi<g ref="char:EOLhyphen"/>ſhoppe</hi> of Canterbury, Primate and Metropolitan of England, and <hi>one of his Maieſties moſt Honorable privie Councell, Grace and peace.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>HE Apoſtolicall times, from the Apoſtolicall doc<g ref="char:EOLhyphen"/>trine (Moſt Reverend) haue incited me to write this <hi>Probleme.</hi> It may ſeeme ſtrange to ſome, that future hereſyes ſhould be thus preuented: but howſoeuer it ſeeme ſtrange to ſome, it is not ſtrange to the enlightened and ſanctified: for firſt, he that knewe what was to come, endited
+<pb facs="tcp:18010:3"/>the holy ſcriptures: he I ſay that know<g ref="char:EOLhyphen"/>eth <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> &amp;c. <hi>Quae ſunt, et erunt, quaeque ante fuere.</hi>
+            </p>
+            <p>Secondly in thoſe tymes in which the holy Scriptures were written, there were the ſame wits, the ſame corrup<g ref="char:EOLhyphen"/>tion, the ſame enemy of mankind, nam<g ref="char:EOLhyphen"/>ly the diuell, which are in our tymes: therefore no maruell, if there be the ſame opinions, The heathen philoſopher ſaid that the ſame opinions in philoſo<g ref="char:EOLhyphen"/>phy were renewed and ſo it is in diuini<g ref="char:EOLhyphen"/>ty. the <hi>Anabaptiſts</hi> haue renewed the opinions of the <hi>Enthuſiaſtes.</hi> the <hi>Li<g ref="char:EOLhyphen"/>bertines</hi> defend <hi>Pelagius</hi> his opinions. and haue not the <hi>Vbiquitaryes</hi> alſo brought <hi>Eutyches</hi> his opinion againe vpon the ſtage? Cut off <hi>Hydras</hi> heads, and more will ſpringe vp. I will not an<g ref="char:EOLhyphen"/>ſwer this pointe in any more words. It remayneth then that I craue pardon, for that I haue troubled your Grace with ſo ſmall a Treatiſe: but your Lord-ſhipe
+<pb facs="tcp:18010:3"/>knoweth that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. If therefore <hi>Bene</hi> be in this booke, and <hi>Well</hi> be in this worke, it is certaine that much is in the ſame. But this I leaue to your Grace to iudge of, as I doe allſo to the Church of God. The ſpirits of the Prophets are ſubiect to the Prophets. The Lord of Lordes multiply his graces vpon you to the good of his Church, and your euerlasting Sal<g ref="char:EOLhyphen"/>uation.</p>
+            <closer>
+               <signed>Your Graces in all duty: FRANCIS DILLINGHAM.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:18010:4"/>
+            <pb facs="tcp:18010:4"/>
+            <head>A <hi>Probleme propounded</hi> by <hi>Francis Dillingham,</hi> in which <hi>is plainely ſhewed, that the holy</hi> Scriptures haue met with popiſh argu<g ref="char:EOLhyphen"/>ments and opinions.</head>
+            <div type="part">
+               <head>Of reading the holy Scriptures.</head>
+               <p>THe papiſtes will not haue the lay people, to reade the Scrip<g ref="char:EOLhyphen"/>tures, becauſe they may take hurt by reading of them. <hi>Bellarmine</hi> lib 2. de verbo dei cap. 15. the wordes of Bellarmine are theſe, <hi>quid quod po<g ref="char:EOLhyphen"/>pulus non ſolum non caperet fructum ex ſcripturis, ſed etiam caperet detri<g ref="char:EOLhyphen"/>mentum, acciperet enim facillime occa<g ref="char:EOLhyphen"/>ſionem errandi, tum in doctrina fidei, tum in praeceptis morum. The people not only receiue no good out of the Scriptures, but hurt, for they would eaſily take an oc<g ref="char:EOLhyphen"/>caſion to erre, both in the doctrine of faith as well as in the doctrine of manners.</hi> Let vs ſee how the Scriptures meete with
+<pb n="2" facs="tcp:18010:5"/>this ſottiſh obiection. Revel: chap: 22. v. 10. <hi>And he ſayd unto me, ſeale not the words of this propheſie, for the time is at hand.</hi> Now ſome men might ſay, the vniuſt will abuſe this propheſie S. Iohn anſwereth, <hi>he that is uniuſt let him be uniuſt ſtill, and he that is filthy let him be filthy ſtill.</hi> Hence it is playne that the cavill of Papiſtes is met withall, who thus diſpute, they which will abuſe the ſcripture muſt not read the ſame, the lay people will abuſe the ſcripture, ergo they muſt not reade the ſame. S. Iohn anſwereth by a diſtinction, ſome will abuſe it ſome will not. He that is filthy, let him be filthy, he that is holy, let him be holy ſtill. But I deſire to know of the Papiſt, if the learned alſo will not abuſe the ſcrip<g ref="char:EOLhyphen"/>ture, it cannot be denyed, it is but bad arguinge from the abuſe of a thing to take away the lawfull uſe
+<pb n="3" facs="tcp:18010:5"/>of the ſame. Many abuſe meate and drinke to ſurfetting &amp; drunkennes, yea the Sunne and Moone to Idola<g ref="char:EOLhyphen"/>try, muſt theſe thinges therefore be taken away? Images are abuſed to I<g ref="char:EOLhyphen"/>dolatrie, yet will not the Papiſts take them away, which is a ſhamefull thing. <hi>Nocturne vigils,</hi> were abuſed, being but the deuiſe of men. there<g ref="char:EOLhyphen"/>fore they were take<g ref="char:cmbAbbrStroke">̄</g> away: I wiſh the Papiſts would doe ſo with Images, which are mens inventions, and not take away the reading of the Scrip<g ref="char:EOLhyphen"/>tures which is Gods ordinance.</p>
+            </div>
+            <div type="part">
+               <head>A ſecond obiection anſwered.</head>
+               <p>A Second obiection againſt rea<g ref="char:EOLhyphen"/>ding of the Scriptures is taken from the darknes and obſcuritie of the ſame: thus doe the Papiſts argue. <hi>The Scriptures are obſcure, therfore the lay people ought not to read them.</hi> This argument is anſwered by the Apo<g ref="char:EOLhyphen"/>ſtle,
+<pb n="4" facs="tcp:18010:6"/>2. Cor: 4. chap: 3. v. <hi>If our goſpell be then hid, it is hid to them that are loſt, in whom the God of this world hath blinded the mindes, that is of the infi<g ref="char:EOLhyphen"/>dels, that the light of the glorious Go<g ref="char:EOLhyphen"/>ſpell, ſhould not ſhine vnto them.</hi> Thus ſtandeth the obiection. Many heare the goſpell, yet are they not enlight<g ref="char:EOLhyphen"/>ned therby, therfore the doctrine is not ſo cleare as thou <hi>Paul</hi> makeſt it. <hi>Paul</hi> anſwereth the fault is not in the Goſpell, but in men the<g ref="char:cmbAbbrStroke">̄</g>ſelues &amp; the Deuill who blindeth their mindes. Excellently writeth <hi>Picus Mirandu<g ref="char:EOLhyphen"/>la, Scriptura affibilitate parvos nutrit, altitudine ſuperbos irridet, profundi<g ref="char:EOLhyphen"/>tate attentes terret, veritate magnos paſcit,</hi> the Scripture doth nouriſh thoſe that are ſmale, by affability, it ſcorneth the proud by the loftines, by the depth it terrifieth thoſe that are atteent, and by truth it feedeth great ones.</p>
+            </div>
+            <div type="part">
+               <pb n="5" facs="tcp:18010:6"/>
+               <head>Of prayer in an vnknowne tongue.</head>
+               <p>THe Papiſts teach and practiſe prayer in an vnknowne tongue. The Apoſtle hath prevented this error, 1. Cor. 14. chap. v. 15. <hi>what is it then, I will pray with the ſpirit, but I will pray with the vnderſtanding alſo: I will ſing with the ſpirit, but I will ſing with the vnderſtanding alſo.</hi> The ob<g ref="char:EOLhyphen"/>iection anſwered is this. Is it not therfore lawful to pray with the ſpi<g ref="char:EOLhyphen"/>rit. S. Paul anſwereth it is lawfull if it be vnderſtood. Now by ſpirit as e<g ref="char:EOLhyphen"/>very man knoweth, is ment a ſtrange tongue which the ſpirit did endite, So then, the Apoſtle hath plainly prevented the cauill for praying in a ſtrange and vnknowne tongue; di<g ref="char:EOLhyphen"/>rectly affirming that men muſt not ſo pray except they vnderſtand the tongue.</p>
+            </div>
+            <div type="part">
+               <pb n="6" facs="tcp:18010:7"/>
+               <head>Of workes of Congruitie, that is, de<g ref="char:EOLhyphen"/>ſerving of Congruitie.</head>
+               <p>
+                  <hi>HO, every one that thirſteth</hi> ſaith Eſa. 55. v. 1. <hi>come yee to the waters, and yee that haue no ſilver, come bye and eate: come I ſay bye wine and milke without ſiluer and without money.</hi>
+               </p>
+               <p>All that are a thirſt are here called to the waters, that is to Gods graces. Now they might ſay we haue no merrits or deſertes, ye that haue no ſilver (ſaith the Lord) come bye and eate, I ſay bye wine &amp; milke without ſilver and without money. Tou<g ref="char:EOLhyphen"/>ching this text thus writeth <hi>Bellar<g ref="char:EOLhyphen"/>mine</hi> lib. 5. de inſti. ca. 5. <hi>Wine &amp; milke ſignifie not everlaſting glorie, but, the grace of this life: we doe confeſſe, that the grace of God is not gotten by our merits, but freely given, although not without our worke and labour, for to come and to bye, note our labour, with<g ref="char:EOLhyphen"/>out money and without change, note
+<pb n="7" facs="tcp:18010:7"/>that reconciliation is not due but flatly free,</hi> O Bellarmine why then doeſt thou teach merits of congruitie lib. 1. cap. 21. I end this poynt with the Lords ſpeech Eſai 43. v. 25. <hi>I, even I am he that putteth away thine iniqui<g ref="char:EOLhyphen"/>ties for my owne ſake, and will not re<g ref="char:EOLhyphen"/>member thy ſinnes.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of meriting Heaven.</head>
+               <p>They Papiſtes teach, that a man by his good works may deſerue heaven, behold how the Scripture hath anticipated this ungodly opi<g ref="char:EOLhyphen"/>nion pſalme 130. thus doth the ſer<g ref="char:EOLhyphen"/>vant of God pray, <hi>Lord heare my voyce, let thine eares attend to the voyce of my prayers,</hi> the Lord might ſay vnto him, thou art not worthy to be heard, it is true ſaith he, for <hi>if thou O Lord ſtraightly markeſt iniquities, who ſhal ſtand, but mercy is with thee that thou mightest be feared,</hi> to proceed, thus
+<pb n="8" facs="tcp:18010:8"/>likewiſe doth David pray pſal: 143. <hi>Heare my prayer O Lord, and harken unto my ſupplication, anſwer me in thy truth and righteouſnes.</hi> The Lord might ſay vnto him thou haſt no merits, nor deſerts, it is true ſaith he therefore I pray, <hi>Enter not into iudgment with thy ſervant, for in thy ſight ſhall no man that liveth be iuſtified.</hi> Heere ſome may ſay, if good workes deſerue not heaven, what is the uſe of them, the ſcripture is plaine for the uſe of the<g ref="char:cmbAbbrStroke">̄</g>, 2. Ephe: 10. v. <hi>For by grace are yee ſaved through faith, and that not of your ſelues: it is the gift of God.</hi> Now the Epheſians might haue ſayd, we acknowledge thus much, but doe not our workes comming from grace deſerue? No ſaith the Apoſtle, <hi>not of workes leaſt any man ſhould boaſt himſelfe,</hi> what is then the vſe of good workes? it follo<g ref="char:EOLhyphen"/>weth, <hi>for we are his workmanſhip created in Chriſt Ieſus unto good workes, which God hath ordayned that we ſhould walk</hi>
+                  <pb n="9" facs="tcp:18010:8"/>in them. To this ſuteth the ſpeech of <hi>Barnard, Opera ſunt via regni, non cauſa regnandi,</hi> Good workes are the way to the kingdome of heaven, not the cauſe. S. <hi>Peter</hi> alſo excellently ſetteth out the uſe of good workes, 2. Pet. 1. v. 10. In theſe wordes, <hi>Wher<g ref="char:EOLhyphen"/>fore brethren giue rather diligence to make your calling &amp; election ſure; for if theſe thinges be in you, you ſhall ne<g ref="char:EOLhyphen"/>ver fall: for by this meanes an en<g ref="char:EOLhyphen"/>trance ſhall be miniſtred unto you a<g ref="char:EOLhyphen"/>bundantly, into the everlaſting king<g ref="char:EOLhyphen"/>dome of our Lord Ieſus Chriſt.</hi> And chriſtian reader, what neede the Pa<g ref="char:EOLhyphen"/>piſtes pleade for merites, ſeeing <hi>Bel<g ref="char:EOLhyphen"/>larmine</hi> writeth thus, lib. 5. de iuſti. ca. 14 .Ius habemus, <hi>We haue right to an euerlaſting inheritance, before we begin to doe good workes?</hi> further, <hi>In<g ref="char:EOLhyphen"/>fantes Baptiſed, by that grace alone before all good workes are ſaued, and therefore Chriſt hath merited for us
+<pb n="10" facs="tcp:18010:9"/>the inheritance, ſeeing he hath meri<g ref="char:EOLhyphen"/>ted for us the grace of regeneration &amp; adoption.</hi> And againe in the 17. chap. <hi>Infants merit, not by the merites of workes, but by the merits of the perſon.</hi> Now what are infants merits but Gods mercies, as <hi>Barnard</hi> ſaith, <hi>Me<g ref="char:EOLhyphen"/>ritum meum miſeratio Domini,</hi> My merits are the Lords mercyes? I con<g ref="char:EOLhyphen"/>clude this therefore with the ſaying of S. <hi>Barnard,</hi> 68. ſerm. in cant. <hi>Nam et de meritis eccleſia quid ſit ſollicita, cui de propoſito Dei, firmior ſuppetit ſe<g ref="char:EOLhyphen"/>curiorque gloriandi ratio,</hi> why ſhould the Church be carefull touchinge merits and deſerts, ſeeing it hath a more firme and ſure matter to boaſt of, to wit the purpoſe of God?</p>
+            </div>
+            <div type="part">
+               <head>Of fulfilling Gods commandements.</head>
+               <p>THe Papiſts teach, that a man re<g ref="char:EOLhyphen"/>generate may fulfill Gods com<g ref="char:EOLhyphen"/>maundements: the Apoſtle taketh it
+<pb n="11" facs="tcp:18010:9"/>for granted, that no man can doe ſo. <hi>Gal.</hi> 3. v. 10. <hi>For as many as are of the deedes of the law are vnder the curſe, for it is written, Curſed is every one that continueth not in all things that are written in the booke of the law to doe them.</hi> In which words the Apo<g ref="char:EOLhyphen"/>ſtle doeth thus reaſon, They which cannot fulfill the law are vnder the curſe: but no man can fulfill the law, ergo by the ſentence of the law eve<g ref="char:EOLhyphen"/>ry man is under the curſe: If this be not the Apoſtles Aſſumption, the <hi>Galathia<g ref="char:cmbAbbrStroke">̄</g>s</hi> might haue anſwered <hi>Paul,</hi> that they could fulfill the law, and ſo cut the ſinewes of the Apoſtles rea<g ref="char:EOLhyphen"/>ſon. To this argument <hi>Bellarmine</hi> in his 4. booke of iuſtifi. &amp; chap. 14. anſwereth, that this is the Apoſtles Aſſumption: <hi>No man by his owne ſtrength without faith and grace can keepe the whole law:</hi> but alas, in the 2. chap. and laſt verſe, thus doeth the
+<pb n="12" facs="tcp:18010:10"/>Apoſtle reaſon, <hi>If righteouſnes be by the law, then Chriſt dyed without a cauſe.</hi> Now if the Galathians cleane iuſtled out Chriſt from iuſtification, then it had bin no abſurditie for the<g ref="char:cmbAbbrStroke">̄</g> to haue ſayd, Chriſt dyed in vayne, for by nature we can do theſe things which the law requyreth. Againe, who knoweth not that the <hi>Galathi<g ref="char:EOLhyphen"/>ans</hi> were Chriſtians? chap. 6. v. 1. and chap. 3. v. 3. therefore would they vt<g ref="char:EOLhyphen"/>terly exclude Chriſt from iuſtificati<g ref="char:EOLhyphen"/>on? It is impoſſible to beleeue. In the ſame place, it is worthy to be mar<g ref="char:EOLhyphen"/>ked, that this text being obiected, <hi>In many things we offend all. Bellar<g ref="char:EOLhyphen"/>mine</hi> confeſſeth that <hi>Vega</hi> and thoſe that hold veniall ſinnes to be againſt the law, cannot anſwer this argu<g ref="char:EOLhyphen"/>ment: therefore he ſaith, <hi>that veniall ſinnes are not againſt the law, but be<g ref="char:EOLhyphen"/>ſides the law.</hi> But I would know whe<g ref="char:EOLhyphen"/>ther veniall ſinnes be ſinnes or no.</p>
+               <pb n="13" facs="tcp:18010:10"/>
+               <list>
+                  <item>
+                     <hi>Sinne is every breach of the law.</hi>
+                  </item>
+                  <item>
+                     <hi>Veniall ſinne is ſinne.</hi>
+                  </item>
+                  <item>Ergo <hi>It is a breach of the law.</hi>
+                  </item>
+               </list>
+               <p>
+                  <hi>Bellarmine</hi> himſelfe in his firſt book of the loſſe of grace chap. 9 proveth veniall ſinnes out of theſe words in the 5. chap. of Mathew, <hi>He that is an<g ref="char:EOLhyphen"/>gry with his brother unadviſedly, is culpable of iudgment.</hi> Now our Savi<g ref="char:EOLhyphen"/>our ſheweth, that theſe degrees of anger are forbidden in the com<g ref="char:EOLhyphen"/>mandement of murther. Hence I thus diſpute:
+<list>
+                     <item>
+                        <hi>That which is forbidden in the commande<g ref="char:EOLhyphen"/>ment of murther, is againſt the law.</hi>
+                     </item>
+                     <item>
+                        <hi>But this veniall ſinue of anger is forbidden in the commandement of murther.</hi>
+                     </item>
+                     <item>Ergo <hi>It is againſt the law.</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>Chriſtian reader, I deſire thee to reade the 4 booke &amp; chap. 10. there he confeſſeth out of <hi>Auguſtine</hi> that veniall ſinnes are forbidden in this commandement <hi>thou ſhalt not couet,</hi>
+                  <pb n="14" facs="tcp:18010:11"/>This commandement commandeth perfection, for ſaith he, <hi>Eius generis eſt, vt ſimul media et finem compre<g ref="char:EOLhyphen"/>hendat,</hi> It is of that kinde that it co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>prehendeth both the meanes, and the end. Againe, <hi>Theſe thinges are ſpoken accordinge to</hi> Auguſtine <hi>his minde, who in the precept,</hi> Thou ſhalt not covet, <hi>doth underſtand that all motions of concupiſcenſe are forbid<g ref="char:EOLhyphen"/>den, even thoſe that are not voluntary after a ſort.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of Images.</head>
+               <p>THe Papiſt teacheth, <hi>that Ima<g ref="char:EOLhyphen"/>ges of God are not forbidden,</hi> Bel<g ref="char:EOLhyphen"/>larmine de ſanct. Imag. lib. 2. cap. 8. <hi>and that they are meanes to put vs in minde of God.</hi> Let vs ſee how God preventeth this reme<g ref="char:cmbAbbrStroke">̄</g>brance. <hi>Deut:</hi> chap: 4. v: 23. <hi>Take heed leſt you for<g ref="char:EOLhyphen"/>get the covenant of the Lord your God
+<pb n="15" facs="tcp:18010:11"/>which he made with you.</hi> Now might the people ſay, we will not forget, for we will make an Image of God to re<g ref="char:EOLhyphen"/>member him: this cavill is cut off in the next wordes, <hi>And leſt you make you any graven Image or likenes, of any thing as the Lord thy God hath charged thee:</hi> and in the 15. verſe, <hi>Take heed to your ſelues, for yee ſaw no Image in the day that the Lord ſpake vnto you in Ho<g ref="char:EOLhyphen"/>reb out of the midſt of the fire.</hi> Now where as God (ſaith Bellarmin) may be painted imperfectly I would faine knowe how God can be ſo painted, ſeeing he hath reuealed himſelfe in the bleſſed Trinity. Thus writeth Bellarmine, <hi>vbi tamen notandum etc. Where notwithſtanding it is to be no<g ref="char:EOLhyphen"/>ted, that ſuch Images are not to be mul<g ref="char:EOLhyphen"/>tiplyed, neither is it to be ſuffered that Paynters dare of their owne heads faine Images of the Trinitie, as when they paynt one man with three faces,
+<pb n="16" facs="tcp:18010:12"/>or one man with two heads, and in the mideſt of them a Doue. Theſe are mon<g ref="char:EOLhyphen"/>ſters, and doe rather offend by their de<g ref="char:EOLhyphen"/>formitie, then helpe by their ſimili<g ref="char:EOLhyphen"/>tude.</hi> Thus farre Bellarmine: and tru<g ref="char:EOLhyphen"/>ly by the ſame proportion ſo are all other Images of God, wherefore I ſay with Durand, lib 3. diſtinct: 9: quaeſt: 2. <hi>It is impietie to Paynt that which is Divine, and if any man ſay that the holy Ghoſt did appeare in the forme of a Doue, we muſt ſay, that thoſe formes were not taken into unitie of perſon, wherefore no reuerence is due to them.</hi> This hath Durand written with many more words, which I haue omitted for brevitie ſake. God teach vs to remember him aright &amp; to deteſt our owne inuentions. I deale onely with the ſcriptures, and therfore I medle little with humane teſtimonyes.</p>
+               <pb n="17" facs="tcp:18010:12"/>
+               <p>
+                  <hi>Of perſevering in grace, whether faith and righteouſnes be proper to the elect, and whether ſaving faith being once had, may be wholly and finally loſt. The papiſts hold that it may be loſt.</hi> Bellar. lib. 3. de iuſtif. ca. 14.</p>
+               <p>SAint <hi>Peter</hi> in his firſt Epiſtle cap: 1. v. 3. Thus writeth; <hi>Bleſſed be God even the father of our Lord Ieſus Chriſt, which according to his abundant mercy hath begotten vs againe vnto a liuely hope by the reſurection of Ieſus Chriſt from the dead, unto an inheri<g ref="char:EOLhyphen"/>tance immortall &amp; undefiled, and that fadeth not away, reſerued in heauen for you.</hi> Thus farr S. Peter. Now ſome might obiect and ſay as the papiſts doe, we may leeſe this hope &amp; inhe<g ref="char:EOLhyphen"/>ritance. Nay, ſaith <hi>S. Peter,</hi> in the next wordes &amp; verſe it is not ſo, <hi>we are kept by the power of God thorough faith, unto ſaluation, which is prepa<g ref="char:EOLhyphen"/>red, to be ſhewed in the laſt time,</hi> So
+<pb n="18" facs="tcp:18010:13"/>then, the power of God preſerveth vs thorough faith, if our Saluation were ſuſpended vpon our owne ſelues, then no doubt we might leeſe the ſame. The ſame <hi>S. Peter</hi> in his 2 epiſtle 1 chap. 10 verſe. exhorteth the diſperſed Iewes to <hi>make their cal<g ref="char:EOLhyphen"/>ling and election ſure.</hi> Some might ſay and cavill, it cannot be ſo, for we may wholly and finally fall: nay ſaith <hi>S. Peter,</hi> that cannot be, <hi>For if you doe theſe things ye ſhall never fall:</hi> He doth not meane they ſhal not ſinne, but they ſhall not wholly or finally fall from grace: all the Saints ſinne, yet a true Saint cannot totally &amp; for ever fall from grace. And as <hi>S. Peter</hi> hath met with theſe cavills, ſo like<g ref="char:EOLhyphen"/>wiſe hath <hi>S. Iohn,</hi> 1 epiſt. chap. 2. v. 19. <hi>They went out from us, but they were not of us,</hi> ſome might ſay that it is not ſo, for they might be both: nay ſaith <hi>S. Iohn,</hi> that is not ſo, <hi>For if they had
+<pb n="19" facs="tcp:18010:13"/>ben of us they had remayned with us, but this commeth to paſſe that it might appeare they were not of us.</hi> In the ſame Epiſt. cap. 3. v. 9. it is thus writ<g ref="char:EOLhyphen"/>ten, <hi>Whoſoever is borne of God ſinneth not, for his ſeed remaineth in him.</hi> I but (ſaith the papiſt) it is true, ſo long as charity is in him, but he may loſe it: nay ſaith <hi>S. Iohn, Neither can he ſinne, becauſe he is borne of God.</hi> And whereas they ſay, faith is not peculiar to the elect, I marvell that they will not ſee theſe plaine ſcrip<g ref="char:EOLhyphen"/>tures. <hi>Titus</hi> 1. v. 1. <hi>Paul a ſervant of God &amp; an Apoſtle of Ieſus Chriſt accor<g ref="char:EOLhyphen"/>ding to the faith of Gods elect.</hi> And Act. 13. v. 48. <hi>As many as were orday<g ref="char:EOLhyphen"/>ned to eternall life beleeved.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of Purgatory.</head>
+               <p>THe papiſtes teach <hi>Purgatory,</hi> a place after death, in which the godly muſt be purged from their
+<pb n="20" facs="tcp:18010:14"/>ſinnes, having not perfectly ſatisfied in this life. Now let vs ſee how the Scripture meets with this conceite: In the 7. chap: of the Romans, <hi>Paul</hi> cryeth out after this manner, <hi>O wret<g ref="char:EOLhyphen"/>ched man that I am, who ſhall deliver me from the body of this death! I thank God through Ieſus Chriſt our Lord.</hi> Some might ſay, <hi>Paul,</hi> if thou beeſt ſo miſerable, then thou art in the ſtate of damnation; marke how the Apoſtle anſwereth this doubt: <hi>Now then, there is no condemnation to them that are in Chriſt Ieſus, which walke not after the fleeſh but after the ſpirit.</hi> Nay ſaith the Apoſtle, though I am miſerable in my ſelfe, yet am I happy in Chriſt Ieſus, and not only I, but all that are godly. And heere by the way let vs obſerue a poynt in Divi<g ref="char:EOLhyphen"/>nity we teach that ſinne is euery breach of Gods law deſeruing the curſe. This muſt be vnderſtood with
+<pb n="21" facs="tcp:18010:14"/>this exception, except a man be in Chriſt Ieſus: ſinne of it ſelf deſer<g ref="char:EOLhyphen"/>ueth the curſe, but in Chriſt it is ta<g ref="char:EOLhyphen"/>ken away. To proceed, as this place preuenteth <hi>purgatory,</hi> ſo doth ano<g ref="char:EOLhyphen"/>ther place alſo in the 2. of the Cor. 5. Chap. 1. verſ. <hi>For we know that if our earthly houſe of this tabernacle be diſ<g ref="char:EOLhyphen"/>ſolued, we haue a building giuen of God, that is, an houſe not made with hands, but eternall in the heauens.</hi> In the 17. v. of the former chapt. theſe are <hi>S. Paul</hi> his words: <hi>For our light affliction which is but for a moment, cauſeth unto us a farre more excellent and eternall weight of glory.</hi> Some man might demand, when ſhall we haue this glory? the Apoſtle anſwe<g ref="char:EOLhyphen"/>reth, when our earthly tabernacle is diſſolued. But heere ſome will ſay, why did the Fathers pray for the dead? although I haue anſwered this obiection in another treatiſe, yet
+<pb n="22" facs="tcp:18010:15"/>here I will ſpeake ſomewhat of it. <hi>Hil<g ref="char:EOLhyphen"/>debert</hi> in his 4 epiſtle being exhorted by his friend to pray for a Queene, ſaith that he did preuent his exhor<g ref="char:EOLhyphen"/>tation: <hi>Oratis</hi> (ſaith he) <hi>quidem orari pro ea, ſed credimus eam plus poſſe ſuis adiuuare, quàm agere noſtris precibus adiuuari.</hi> We beleeue that ſhe rather helpeth vs by her prayers, then that ſhe neede be helped by our prayers. Yet (ſaith he) <hi>Veſtram tamen praeceſsi<g ref="char:EOLhyphen"/>mus exhortationem,</hi> We preuented your exhortation, ergo, they pray<g ref="char:EOLhyphen"/>ed for thoſe that were in heaven. <hi>Alcuinus</hi> in his booke <hi>De diuints offi<g ref="char:EOLhyphen"/>ciis,</hi> cap. 43. hath theſe words, <hi>Ali<g ref="char:EOLhyphen"/>quibus in locis generaliter pro omni<g ref="char:EOLhyphen"/>bus defuncttis omni tempore, exceptis Penticoſtes et feſtis diebus, oratur in officio vespertinali.</hi> At eve<g ref="char:cmbAbbrStroke">̄</g>ing pray<g ref="char:EOLhyphen"/>er in ſome places they pray gene<g ref="char:EOLhyphen"/>rally for all the dead at all times, ex<g ref="char:EOLhyphen"/>cept the dayes of Pentecoſt &amp; feſti<g ref="char:EOLhyphen"/>vall
+<pb n="23" facs="tcp:18010:15"/>dayes. Ergo, prayer for the dead being made for all, eſtabliſheth not Purgatory; for I am ſure all the dead are not placed by Papiſtes them<g ref="char:EOLhyphen"/>ſelues in Purgatory.</p>
+            </div>
+            <div type="part">
+               <head>Of ſatisfaction for ſinne.</head>
+               <p>SAtisfaction for veniall ſinnes, is ſtoutly maintayned by papiſts. Let us ſee how the holy Scripture hath prevented this fearefull doc<g ref="char:EOLhyphen"/>trine. <hi>My babes</hi> (ſaith S. Iohn) 1. epiſt. 2. chap. v. 1. <hi>theſe things write I unto you, that you ſinne not;</hi> Now they might ſay, alas, we cannot chuſe but ſinne; what muſt we doe then? muſt we deſpaire? muſt we make ſatisfac<g ref="char:EOLhyphen"/>tion for our ſinnes? No, ſaith <hi>S. Iohn,</hi> we haue a remedy againſt both theſe. <hi>For if any man ſinne, we haue an advocate with the Father, Ieſus Chriſt the iuſt.</hi> We need therefore
+<pb n="24" facs="tcp:18010:16"/>neither deſpaire nor ſatisfie. This reſolution of holy ſcripture is firme and ſure to all true Logitia<g ref="char:cmbAbbrStroke">̄</g>s &amp; Rhe<g ref="char:EOLhyphen"/>toricians, wherfore, I doubt not to call this text the hammer of Popery, and a wyer whippe, to ſcourge the doctrine of Satisfaction.</p>
+            </div>
+            <div type="part">
+               <head>Of Tranſubſtantiation or turning the bread into the body of Chriſt.</head>
+               <p>IT is held by Pſeudocatholiks, that the ſubſtance of bread is turned into the body of Chriſt, and there remayne only accidents &amp; ſhewes of bread. The Scripture rightly re<g ref="char:EOLhyphen"/>ſolved, meeteth with this mo<g ref="char:cmbAbbrStroke">̄</g>ſtrous phantaſie. <hi>Math.</hi> 26. v. 26. <hi>When they had eaten Ieſus tooke bread, and when be had bleſſed it, he brake it, &amp; gaue it to his Diſciples ſaying, take, eate, this is my body.</hi> The Diſciples might haue ſayd, We haue ſupped, what ſhould we doe with bread? Chriſt anſwe<g ref="char:EOLhyphen"/>reth,
+<pb n="25" facs="tcp:18010:16"/>this bread is not ordinary bread, but it is <hi>my body:</hi> now bread cannot properly be the body of Chriſt, Ergo it ſignifieth the body of Chriſt: the ſame likewiſe may be ſayd of the <hi>Cup,</hi> for <hi>this is my blood</hi> (ſaith Chriſt) when he had ſayd, <hi>drinke yee all of this.</hi> They might haue replyed, what need that, ſeeing we are not thirſtie? we haue lately ſupped; Chriſt anſwereth, <hi>this Cup</hi> is not ordinary wine, but it is <hi>my blood,</hi> namely, <hi>the blood of the new Cove<g ref="char:EOLhyphen"/>nant which is ſhed for many, for the remiſsion of ſinnes.</hi> Chriſt anſwering thus plainly ſignifieth, that he doth not giue them drink, to quench cor<g ref="char:EOLhyphen"/>porall thirſt, but to quench ſpirituall thirſt. Wherefore, although the Pa<g ref="char:EOLhyphen"/>piſts would exclude all tropes out of the ſupper, yet marke how many they make, firſt <hi>eate,</hi> there is one: for Chriſts body cannot properly be ea<g ref="char:EOLhyphen"/>ten.
+<pb n="26" facs="tcp:18010:17"/>To this <hi>Bellarmine</hi> anſwereth, <hi>that eating is nothing but conveying from the mouth to the ſtomacke, by na<g ref="char:EOLhyphen"/>turall inſtruments, for elſe old men and children ſhould not eate.</hi> I anſwer, then let drinking be eating; for drink is conveyed to the ſtomacke by na<g ref="char:EOLhyphen"/>turall inſtruments: and touching children and old folks, although they chew not with teeth, yet their ſolid meate is ſomewhat chewed with their gums, and their liquid meates are not properly eaten, but conveyed to the ſtomacke, being (as I may ſpeake) drinkable meates. Secondly, they cannot deny but the Cup is put for the contents in the Cup. Third<g ref="char:EOLhyphen"/>ly, thus doth <hi>Bellarmine</hi> expound theſe words, <hi>This is my bodie, Vnder theſe ſhewes is my bodie.</hi> Fourthly, <hi>Do this in remembrance of me,</hi> that is, ſaith <hi>Bellarmine, in remembrance of my paſsion and death.</hi> Chriſt is put for
+<pb n="27" facs="tcp:18010:17"/>the death of Chriſt. Thus are they conſtrained to make tropes, and yet they wil not allow the Proteſta<g ref="char:cmbAbbrStroke">̄</g>ts any.</p>
+            </div>
+            <div type="part">
+               <head>Of the Sacraments.</head>
+               <p>THe Papiſts teach, that the Sa<g ref="char:EOLhyphen"/>craments giue grace of the work wrought. Marke how the Apoſtle meeteth with this error, Rom. 4.9. <hi>Came this bleſſedneſſe then vpon the circumciſion onely, or vpon the vncir<g ref="char:EOLhyphen"/>cumciſion alſo? For we ſay, that faith was imputed to Abraham for righte<g ref="char:EOLhyphen"/>ouſneſſe. How was it then imputed? when he was circumciſed, or when he was vncircumciſed? not when he was circumciſed, but when he was vncir<g ref="char:EOLhyphen"/>cumciſed.</hi> Some might demand, to what end then was he circumciſed? <hi>Paul</hi> anſwereth in the next verſe, <hi>Af<g ref="char:EOLhyphen"/>ter he receiued the ſigne of circumci<g ref="char:EOLhyphen"/>ſion, as the ſeale of the righteouſnes of the faith which he had.</hi> Now whereas
+<pb n="28" facs="tcp:18010:18"/>the Papiſts reply, it is not ſo in our ſacraments as it was in circumciſion; they bid open warre and battell to the Apoſtle who doth thus diſpute,
+<list>
+                     <item>
+                        <hi>As Abraham was iuſtified, ſo are all men iuſtified:</hi>
+                     </item>
+                     <item>
+                        <hi>But Abraham was iuſtified without the Sacraments:</hi>
+                     </item>
+                     <item>
+                        <hi>Ergo all men are ſo iuſtified.</hi>
+                     </item>
+                  </list> What then is the vſe of the holy Sa<g ref="char:EOLhyphen"/>craments? They ſerue to confirme and ſtrengthen our faith. I might alledge another place of Scripture to this purpoſe, but I ſtudie for bre<g ref="char:EOLhyphen"/>uitie, therefore I omit it.</p>
+            </div>
+            <div type="part">
+               <head>Of prayer unto Saints.</head>
+               <p>THe Papiſts teach, that a man may call vpon &amp; invocate Saints departed: the Scripture cleane ouer<g ref="char:EOLhyphen"/>throweth this opinion, Pſal. 65.2. <hi>Be<g ref="char:EOLhyphen"/>cauſe thou heareſt the prayer,</hi> ſaith <hi>Da<g ref="char:EOLhyphen"/>uid.</hi>
+                  <pb n="29" facs="tcp:18010:18"/>What then, ſome men might ſay? He anſwereth as followeth, <hi>Vnto thee ſhall all fleſh come.</hi> The occaſion why all fleſh ſhall come to God, is, becauſe he heareth prayers. Hence I thus conclude:
+<list>
+                     <item>
+                        <hi>He to whom all fleſh cometh, he hea<g ref="char:EOLhyphen"/>reth the prayer.</hi>
+                     </item>
+                     <item>
+                        <hi>But onely to God all fleſh muſt come.</hi>
+                     </item>
+                     <item>
+                        <hi>Ergo onely God heareth the prayer of all fleſh.</hi>
+                     </item>
+                  </list> Chriſtian Reader, giue me leaue here to anſwer an argument of the Pa<g ref="char:EOLhyphen"/>piſts: The liuing do inuocate the li<g ref="char:EOLhyphen"/>uing; <hi>Ergo</hi> they may call vpon the dead. This argument (ſaith <hi>Bellar<g ref="char:EOLhyphen"/>mine</hi>) the aduerſaries cannot anſwer. I pray thee therefore Chriſtian Rea<g ref="char:EOLhyphen"/>der, let me anſwer it. The Saints li<g ref="char:EOLhyphen"/>uing before the comming of Chriſt, did deſire the prayers one of ano<g ref="char:EOLhyphen"/>ther, yet did they not pray to the dead. Furthermore, one Saint liuing
+<pb n="30" facs="tcp:18010:19"/>may not invocate another. Thus do the Papiſts pray to the virgin <hi>Marie: Marie the mother of grace, the mother of mercie, defend vs from our enemies, and receiue vs at the houre of death.</hi> I but, ſaith <hi>Bellarmine,</hi> the meaning is, that <hi>Marie is the mother of grace by prayer onely.</hi> Alas, could ſimple peo<g ref="char:EOLhyphen"/>ple that prayed in Latin, thus diſtin<g ref="char:EOLhyphen"/>guiſh? They knew not what they prayed, and could they thus diſtin<g ref="char:EOLhyphen"/>guiſh? Though <hi>Bellarmine</hi> a cun<g ref="char:EOLhyphen"/>ning Sophiſter can ſo diſtinguiſh, yet I thinke ſome ſchollers amongſt the Papiſts cannot. Yea what blaſphemy may not men thus excuſe? We may call the virgin <hi>Marie</hi> God, and thus excuſe it, becauſe ſhe was <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſhe brought foorth him that was God, namely Chriſt Ieſus who is both God and man, and therefore ſhe may be called God. But I would faine know how this prayer may be
+<pb n="31" facs="tcp:18010:19"/>ſalved: <hi>O felix puerpera, no ſtrapians ſcelera, iure matris impera redemptori: O happie virgin that purgeſt our ſins, command the redeemer by the right of a mother.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of the Popes temporall dominion.</head>
+               <p>THe Popes temporall dominion is knowne to the world; the Scripture hath flatly forbidden it, Math. 20.25. <hi>Ye know that the Lords of the Gentiles haue dominion ouer them, and they that are great, exerciſe authoritie ouer them, but it ſhall not be ſo among you: but whoſoeuer will be great among you, let him be your ſer<g ref="char:EOLhyphen"/>uant.</hi> Bellar. lib. 4. de Ro. Pont. c. 10. anſwereth, that <hi>the Lord doth inſti<g ref="char:EOLhyphen"/>tute meerly Eccleſiaſticall Princes, and teacheth them that as they are ſuch, they ought to rule, not after the manner of Kings, but after the manner of fa<g ref="char:EOLhyphen"/>thers
+<pb n="32" facs="tcp:18010:20"/>and ſhepheards:</hi> as though Kings ought not to be fathers and ſhep<g ref="char:EOLhyphen"/>heards to their ſubiects. The ſpeech of <hi>Cyrus</hi> in <hi>Xenophon</hi> in his eighth booke, is excellent, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, &amp;c. <hi>the workes of a good ſhepheard and good King are very like.</hi> And I am ſure a King in <hi>Homer,</hi> is called <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>the ſhepheard of the people.</hi> Let vs heare <hi>Langius</hi> a Papiſt concerning the Popes temporall dominion: <hi>Eo<g ref="char:EOLhyphen"/>dem anno,</hi> ſaith he, <hi>The ſame yeare, namely</hi> 1407. <hi>the Romanes offered to Innocentius the Pope the keyes of the Citie, with branches of Palmes, and granted him all the temporall domi<g ref="char:EOLhyphen"/>nion of the citie of Rome; but vniustly and vncommendably: for the ſtore of temporall things doe no little hurt to ſpirituall.</hi> With many moe words to the ſame purpoſe. Secondly ſaith <hi>Bellarmine, Chriſt forbiddeth tyran<g ref="char:EOLhyphen"/>nie.</hi> for the word is <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. I an<g ref="char:EOLhyphen"/>ſwer,
+<pb n="33" facs="tcp:18010:20"/>
+                  <hi>S. Luke</hi> hath met with this ca<g ref="char:EOLhyphen"/>uill; for he vſeth the word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> without any compoſition: yea the compound is with force and power to rule men whether they will or no, not with wrong and iniurie to op<g ref="char:EOLhyphen"/>preſſe them. But let vs heare <hi>Bernard lib.</hi> 2. <hi>de conſid. ad Eugen. Planum eſt, Apoſtolis interdicitur dominatus: i ergo tu &amp; tibi vſurpare aude aut do<g ref="char:EOLhyphen"/>minans apoſtolatum, aut apoſtolicus dominatum; plane ab alterutro prohi<g ref="char:EOLhyphen"/>beris:</hi> It is euident that rule is prohi<g ref="char:EOLhyphen"/>bited the Apoſtles, go thou therfore and vſurpe, if thou dareſt, being a ru<g ref="char:EOLhyphen"/>ler the Apoſtleſhip, or being an A<g ref="char:EOLhyphen"/>poſtle rule; thou art plainly forbid<g ref="char:EOLhyphen"/>den one of them. Againe, in his firſt booke he hath theſe words, <hi>In cri<g ref="char:EOLhyphen"/>minibus, non in poſſeſsionibns poteſtas veſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ra,</hi> Your power is in crimes, not in poſſeſſions; for them and not for theſe, you haue receiued the keyes of
+<pb n="34" facs="tcp:18010:21"/>the kingdome of heauen, excluding ſinners, not poſſeſſors of lands. In his third book, thus boldly ſpeaketh he, <hi>Pro libitu agere, quid tam beſtiale?</hi> To do all things after his owne pleaſure, what is ſo beaſtly as this? To con<g ref="char:EOLhyphen"/>clude, in his fourth booke ſaith he, <hi>In his ſucceſsiſti non Petro ſed Conſtan<g ref="char:EOLhyphen"/>tino:</hi> In theſe things thou haſt not ſucceeded <hi>Peter</hi> but <hi>Conſtantine.</hi> But it may be the Popes authoritie will preuaile, let <hi>Gelaſius</hi> therfore ſpeake, tom. 2. Concil. pag. 442. <hi>Some were before the coming of Chriſt, Kings and Prieſts typically, but when the true King and high Prieſt came, then nei<g ref="char:EOLhyphen"/>ther doth the Emperour take to himſelf the name of an high Prieſt, neither doth the high Prieſt challenge royall autho<g ref="char:EOLhyphen"/>ritie.</hi> Many mo words he hath to the ſame purpoſe. The ſame thing in effect hath Pope <hi>Nicolas</hi> the firſt, in his Epiſtle to <hi>Michael</hi> the Emperor.
+<pb n="35" facs="tcp:18010:21"/>
+                  <hi>Caſsiodore</hi> vpon the fiftieth Pſalme thus writeth, <hi>Si quis de populo erraue<g ref="char:EOLhyphen"/>rit, &amp; Deo peccat &amp; Regi: nam quando Rex delinquit, ſoli Deo reus eſt, quia hominem non habet qui eius facta di<g ref="char:EOLhyphen"/>iudicat<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>; merito ergo Rex, Deo tantum ſe dicit peccaſſe, qui ſolus erat qui eius potuiſſet admiſſa diſcutere:</hi> If any of the people erre, he ſinneth againſt God and the King: when the King ſinneth, he is guiltie onely to God, for he hath no man that may iudge his deeds: worthily therefore doth the King ſay, that he ſinned onely againſt God, becauſe he alone could diſcuſſe his offences. To conclude,
+<list>
+                     <item>
+                        <hi>That which the Apostles requeſted, is forbidden them.</hi>
+                     </item>
+                     <item>
+                        <hi>But they requeſted te<g ref="char:cmbAbbrStroke">̄</g>poral dominion.</hi>
+                     </item>
+                     <item>
+                        <hi>Ergo it was forbidden them.</hi>
+                     </item>
+                  </list> I do not denie but they were ſome<g ref="char:EOLhyphen"/>what ambitious in asking temporall dominion, but meere ambition was
+<pb n="36" facs="tcp:18010:22"/>not forbidden them, but temporall rule, as I haue made manifeſt and plaine.</p>
+            </div>
+            <div type="part">
+               <head>Of ſinning neceſſarily.</head>
+               <p>THus do the Papiſts diſpute tou<g ref="char:EOLhyphen"/>ching ſinne, <hi>Aut peccatum eſt ne<g ref="char:EOLhyphen"/>ceſſarium, aut voluntarium,</hi> ſinne is either neceſſarie or voluntarie: if it be neceſſarie, then it is no ſinne. The Apoſtle <hi>Paul,</hi> Rom. 9.19. hath cut the ſinewes of this argument: <hi>Thou wilt ſay then, Why doth he yet complain? for who hath reſiſted his will?</hi> The A<g ref="char:EOLhyphen"/>poſtle anſwereth, <hi>But O man, who art thou that pleadeſt againſt God?</hi> To lay open the obiection, thus it ſtandeth:
+<list>
+                     <item>
+                        <hi>He that cannot reſiſt the will of God, is not to be blamed.</hi>
+                     </item>
+                     <item>
+                        <hi>But a hardened heart cannot reſiſt the will of God.</hi>
+                     </item>
+                     <item>
+                        <hi>Ergo a hardened heart cannot be bla<g ref="char:EOLhyphen"/>med.</hi>
+                     </item>
+                  </list>
+                  <pb n="37" facs="tcp:18010:22"/>The Apoſtle denieth the propoſitio<g ref="char:cmbAbbrStroke">̄</g> by a reprehenſion, <hi>O man who art thou that pleadeſt againſt God?</hi> And here, by the way, Chriſtian Reader, iudge of their argument who thus diſpute touching <hi>Adams</hi> fall: If God decreed <hi>Adams</hi> fall, then he fell ne<g ref="char:EOLhyphen"/>ceſſarily, and ſo God was the cauſe thereof. O man, what art thou that diſputeſt with God? I beſeech thee, Chriſtian Reader, adore the myſte<g ref="char:EOLhyphen"/>ries of election and reprobation, ſearch them not curiouſly, but lay thy hand vpon thy mouth and be ſi<g ref="char:EOLhyphen"/>lent, be not a queriſt, but let God be righteous, and let the whole world periſh: wonder that God ſhould chuſe any one to ſaluation: wonder not if thouſands be damned: better farre is faithfull ignorance, then raſh knowledge. <hi>Paul</hi> calleth them <hi>vn<g ref="char:EOLhyphen"/>ſearchable wayes of God:</hi> and wilt thou ſearch them? Whoſoeuer is not ſa<g ref="char:EOLhyphen"/>tisfied
+<pb n="38" facs="tcp:18010:23"/>with this anſwer, let him ſeek for one better learned then I am, but let him take need that he finde not a more preſumer. Thus much may ſuffice for this argument of <hi>ſinning neceſſarily.</hi> Here I might enter into the queſtion of Freewill, but I ſay with <hi>Augustine</hi> concerning this point, <hi>Ser.</hi> 2. <hi>de verbis Apoſtoli: Worke your ſaluation,</hi> ſaith the Apoſtle. Now leſt they ſhould attribute any thing to themſelues, it followeth, <hi>It is God which worketh in you both the will and the deed, of his good pleaſure.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of Iuſtification.</head>
+               <p>THus doth the Apoſtle reaſo<g ref="char:cmbAbbrStroke">̄</g> tou<g ref="char:EOLhyphen"/>ching Iuſtification: <hi>If Abraham were iuſtified by works, he hath therein to reioyce, but not with God.</hi> The Pa<g ref="char:EOLhyphen"/>piſts anſwer, that <hi>S. Paul</hi> ſpeaketh of the firſt iuſtification. This anſwer
+<pb n="39" facs="tcp:18010:23"/>the Apoſtle taketh away in the next words: <hi>Abraham beleeued in God, and it was imputed or counted to him for righteouſneſſe.</hi> This teſtimonie is al<g ref="char:EOLhyphen"/>ledged out of the fifteenth chapter of Geneſis. And if there were any ſe<g ref="char:EOLhyphen"/>cond iuſtification, it muſt needs be vnderſtood of the ſame: for <hi>Abraham</hi> was iuſtified before. In the 12, 13, and 14 chapters, the notable works of <hi>Abraham</hi> are recorded, as that he obeyed God in going out of his countrey, that he built an altar, that he talked familiarly with God: be<g ref="char:EOLhyphen"/>ſides Heb. 11. the Apoſtle putteth this amongſt the praiſes of <hi>Abraham,</hi> that by faith he went into a place which he knew not. And if <hi>S. Iames</hi> ſpeake of a ſecond iuſtification, then doth <hi>S. Paul</hi> likewiſe: for <hi>S. Iames</hi> al<g ref="char:EOLhyphen"/>ledgeth the ſame text chap. 2. ver. 23. But this vaine diſtinction is alſo pre<g ref="char:EOLhyphen"/>uented by <hi>S. Iames,</hi> who alledgeth
+<pb n="40" facs="tcp:18010:24"/>the example of <hi>Rachab,</hi> verſ. 25. <hi>Like<g ref="char:EOLhyphen"/>wiſe, was not Rachab the harlot iuſtified through workes, when ſhe receiued the meſſengers, and ſent them out another way?</hi> It is certaine that <hi>Rachab</hi> was an infidell, vntill that time that ſhe re<g ref="char:EOLhyphen"/>ceiued the ſpies: wherefore by her example it is euident that <hi>S. Iames</hi> nor <hi>S. Paul</hi> knew any ſecond iuſtifi<g ref="char:EOLhyphen"/>cation. I conclude with <hi>Bellarmine</hi> his ſpeech <hi>lib.</hi> 2. <hi>de iuſtif. cap.</hi> 7. <hi>Si ſo<g ref="char:EOLhyphen"/>lum vellent, nobis imputari Chriſti merita, quia nobis donata ſunt, et poſ<g ref="char:EOLhyphen"/>ſumus ea Deo Patri offerre pro peccatis noſtris, quoniam Chriſtus ſuſcepit ſu<g ref="char:EOLhyphen"/>per ſe onus ſatisfaciendi pro nobis, noſ<g ref="char:EOLhyphen"/>que Deo Patri reconciliandi, recta eſſet corum ſententia:</hi> If they meant onely this, that Chriſt his merits were im<g ref="char:EOLhyphen"/>puted to vs, becauſe they were giuen vs, and becauſe we may offer them to God the Father for our ſins, ſee<g ref="char:EOLhyphen"/>ing Chriſt tooke vpon him the bur<g ref="char:EOLhyphen"/>den
+<pb n="41" facs="tcp:18010:24"/>to ſatisfie for vs, and to recon<g ref="char:EOLhyphen"/>cile vs to God the Father, their opi<g ref="char:EOLhyphen"/>nion was right. Thus farre <hi>Bellar<g ref="char:EOLhyphen"/>mine.</hi> Now let vs marke how the A<g ref="char:EOLhyphen"/>poſtle reaſoneth: Rom. 5. v. 10. <hi>For if when we were enemyes we were recon<g ref="char:EOLhyphen"/>ciled to God, by the death of his Sonne, much more being reconciled, we ſhalbe ſaved by his life.</hi> Excellently writeth <hi>Bernard, Fateor non ſuum dignus, nec propriis poſſum meritis, regnum obti<g ref="char:EOLhyphen"/>nere caelorum; ceterum Dominus meus, duplici iure illud poſsidens, haereditate patris, et merito paſsionis, altero ipſe contentus alterum mihi donat.</hi> I con<g ref="char:EOLhyphen"/>feſſe and acknowledge that I am not worthy, neither can I obteyne by my merits the kingdome of heaven, but my Lord poſſeſſing it by a dou<g ref="char:EOLhyphen"/>ble right, by his Fathers inherita<g ref="char:cmbAbbrStroke">̄</g>ce, &amp; by the merit of his paſſion, being content with the one himſelfe, gi<g ref="char:EOLhyphen"/>veth me the other. Thus Chriſtian
+<pb n="42" facs="tcp:18010:25"/>reader I haue ſhewed thee, how the holy ſcriptures meet with popiſh ca<g ref="char:EOLhyphen"/>vills, in the weightieſt controuerſies betwixt them and vs. God almighty open mens hearts to ſee the cleere truth which in great brevitie &amp; ſim<g ref="char:EOLhyphen"/>plicity, I haue heere propounded. I doubt not but other learned men may add much vnto this ſmall Trea<g ref="char:EOLhyphen"/>tiſe which I haue written, to excite men to ſtudie the Scriptures. and eſchue popery. And as I haue written it with this minde, ſo I doubt not, but that God will giue a bleſſing to it. Amen Lord Ieſus.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:18010:25"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
